@@ -1,0 +1,191 @@
+body{
+  background: rgb(240,231,241);
+  font-size: 20px;
+  font-family: 'Barlow', sans-serif;
+  text-align: center;
+  shape-margin: 50px;
+  color: black;
+}
+
+.body h4 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+#inicio {
+  background-color: rgb(241 96 232 / 45%);
+  border-radius: 3px;
+  align-items: center;
+  justify-content: space-around;
+  display:flex;
+}
+
+.links a {
+  text-align:center;
+  color: white;
+  font-size: 18px;
+  opacity: 1;
+}
+
+.links a:hover {
+  color:purple;
+  opacity: 0.65;
+}
+
+#banner {
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Barlow', sans-serif;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #969292;
+  padding: 30px;
+  padding-bottom: 5px;
+  background-image: url('https://images.unsplash.com/photo-1519882189396-71f93cb4714b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+  margin-right: 0px;
+  background-position: 100%;
+}
+
+#banner h1 {
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 0px;
+  margin-top: 55px;
+}
+
+#banner h2 {
+  font-family: 'Dancing Script', cursive;
+  color: black;
+  font-weight: lighter;
+  font-size: 48px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+#banner p {
+  padding-top: 20px;
+}
+
+#carouselExampleCaptions {
+margin-top: 50px;
+margin-bottom: 50px;
+object-position: relative;
+text-align: center;
+display: block;
+box-shadow: 2px 2px 3px #969292;
+border-radius: 5px;
+}
+
+.carousel-item img {
+  border-radius: 5px;
+  object-fit: cover;
+  
+ }
+
+.btn-ghost {
+  color: rgb(236 15 209 / 98%);
+  border: 2px solid rgb(245 36 219 / 91%);
+  padding: 8px 80px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  background-color: rgb(232 140 219 / 40%);
+  margin-bottom: 30px;
+}
+
+.btn-ghost:hover {
+  opacity: 0.65;
+  color: purple;
+  }
+
+.card-product {
+  overflow: hidden;
+  height: 200px;
+  background: white;
+  box-shadow: 5px 5px rgba(245,36,219,0.52);
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.card-product img {
+  height: 100%;
+  width: 180px;
+  object-fit: cover;
+  object-position: left;
+}
+
+.card-product h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  text-align: left;
+}
+
+.card-product p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+  text-align: justify;
+}
+
+.card-product .card-product-info {
+  padding: 16px;
+}
+
+.form-group {
+  align-items: center;
+  text-align: center;
+}
+
+.btn btn-outline-dark {
+  background-color: rgb(232 140 219 / 40%);
+  color: rgb(236 15 209 / 98%);
+  border: 2px solid rgb(245 36 219 / 91%);
+  border-radius: 50px;
+}
+
+#FOOTER {
+  background-image: url(https://images.unsplash.com/photo-1555231955-348aa2312e19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+  background-size: cover;
+  background-position: center;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.list-inline{
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 250px;
+  margin-left: 250px;
+}
+
+#footer a {
+  color: black;
+}
+
+#footer a:hover {
+  color: red;
+  opacity: 0.65;
+}
+
+.footer-copyright {
+  font-size: 15px;
+}
